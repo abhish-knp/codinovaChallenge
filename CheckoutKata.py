@@ -1,7 +1,7 @@
-def checkout():
-  marks = "DABABA"
+def checkout(InputString):
+  
   counta = countb = countc = countd = counte =0
-  for i in marks:
+  for i in InputString:
 
     if i == "A" : counta =counta +1 
     elif i == "B": countb = countb +1 
